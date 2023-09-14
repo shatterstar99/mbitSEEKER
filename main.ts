@@ -35,6 +35,4 @@ Score = 0
 basic.forever(function () {
     Toggleheart()
     basic.pause((0 - (Signalstyrka - 40)) ** 2)
-    basic.clearScreen()
-    basic.pause((0 - (Signalstyrka - 40)) ** 2)
 })
